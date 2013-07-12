@@ -1,0 +1,5 @@
+#20130712 demo case for Jenkins run
+# git version control
+#1. use nose to gen testsuite coverage in xml format
+#2. use
+#3. use
