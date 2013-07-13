@@ -8,7 +8,7 @@
 #   4. prepare your unttest wrapper...
 #   5. pre test run
 #     % ./runtest
-#   ref:
+#   ref: nose, coverage, plint
 #
 # step 1 setup git env
 # git version control
@@ -35,15 +35,21 @@
 # step 2 setup jenkins
 # jenkins regression control
 #   setup your testsuites
-#   1.
+#
 # jenkins commands, start exit, restart for IE set
 #   http://localhost:8080/exit
 #   http://localhost:8080/restart
 #   http://localhost:8080/reload
+#
 # jenkins commands for MAC
 # % sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
 # % sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+#   1. setup your git source
+#   2. setup your shell script
+#   3. setup your coverage report
+#   4. setup your unittest report
+#   5. setup your notify list
 #
-#1. use nose to gen testsuite coverage in xml format
-#2. use
-#3. use
+#1. use nose to gen testsuite coverage
+#2. use coverage to transfer coverage to xml format
+#3. use jenkins to show gui result
